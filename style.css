@@ -13,15 +13,17 @@ body {
 }
 
 .menu {
-  max-width: 1213px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .menu a {
@@ -31,11 +33,12 @@ body {
 }
 
 .logo {
-  margin: 19px 55px 0 45px;
+  margin: 20px 70px 30px 45px;
+  height: 90px;
+  width: 90px;
 }
 
 .nav {
-  width: 787px;
   font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
@@ -46,13 +49,20 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   list-style: none;
+}
+
+.nav__list li {
+  margin-right: 70px;
+  white-space: nowrap;
 }
 
 .phones {
   margin-left: auto;
+  margin-right: 150px;
+  white-space: nowrap;
 }
 
 .phones a {
@@ -61,7 +71,9 @@ body {
 
 .slider {
   width: 1085px;
-  margin: 3px auto 46px;
+  margin: 0 auto;
+  margin-top: 3px;
+  margin-bottom: 46px;
 }
 
 .categories {
