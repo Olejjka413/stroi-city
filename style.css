@@ -106,4 +106,52 @@ a {
   display: inline-block;
   background: url(img/nav-arrow.svg);
 }
+
+.catalogs__heading {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.catalogs__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.figure__stroi {
+  background-image: url("/img/Rectangle 4.svg");
+  width: 365px;
+  height: 305px;
+  margin-left: 205px;
+}
+
+.figure__stroi__heading {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 10px 0 0 10px;
+}
+
+.figure__stroi__number {
+  font-family: Saira;
+  font-size: 144px;
+  margin: 0;
+  margin-left: 30px;
+  color: #E7DEFF;
+  line-height: 160px;
+}
+
+.figure__stroi__text {
+  color: #E7DEFF;
+  font-size: 24px;
+  margin-top: 0;
+  margin-left: 50px;
+}
+
+.figure__balterio {
+  background-image: url("/img/Rectangle 4 (2).svg");
+}
 /*# sourceMappingURL=style.css.map */
