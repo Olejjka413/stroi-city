@@ -1,28 +1,15 @@
-* {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
-}
-
-body {
 	margin: 0;
-
-	background-color: #000927;
-
-	font-family: 'Roboto', Arial, sans-serif;
-	font-size: 18px;
-	color: #ffffff;
-}
-
-ul {
 	padding: 0;
 }
 
-li {
-	list-style: none;
-}
+body {
+	background-color: #000927;
 
-a {
-	text-decoration: none;
-	color: #ffffff
+	font-family: 'Roboto', Arial, sans-serif;
 }
 
 .header {
@@ -38,16 +25,27 @@ a {
 	align-items: center;
 	flex-wrap: wrap;
 
+	a {
+		color: #ffffff;
+		font-size: 18px;
+		text-decoration: none;
+	}
+
 	.logo {
 		margin: 19px 55px 0 45px;
 	}
+	
 	.nav {
 		width: 787px;
+
+		font-family: 'Roboto Condensed', Arial, sans-serif;
 
 		&__list {
 			display: flex;
 			justify-content: space-between;
 			flex-wrap: wrap;
+
+			list-style: none;
 		}
 	}
 	.phones {
@@ -79,8 +77,12 @@ a {
 		display: flex;
 		justify-content: space-between;
 
+		list-style: none;
+
 		a {
 			color: #222831;
+			font-size: 18px;
+			text-decoration: none;
 		}
 
 		a::after {
