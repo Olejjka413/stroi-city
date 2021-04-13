@@ -12,11 +12,11 @@ body {
 	font-family: 'Roboto', Arial, sans-serif;
 }
 
-.header {
-	&__wrapper {
-		margin: 0 auto;
-	}
-}
+// .header {
+// 	&__wrapper {
+// 		margin: 0 auto;
+// 	}
+// }
 
 .menu {
 	max-width: 1213px;
@@ -30,30 +30,30 @@ body {
 		font-size: 18px;
 		text-decoration: none;
 	}
+}
 
-	.logo {
-		margin: 19px 55px 0 45px;
+.logo {
+	margin: 19px 55px 0 45px;
+}
+
+.nav {
+	width: 787px;
+
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+		list-style: none;
 	}
+}
+.phones {
+	margin-left: auto;
 	
-	.nav {
-		width: 787px;
-
-		font-family: 'Roboto Condensed', Arial, sans-serif;
-
-		&__list {
-			display: flex;
-			justify-content: space-between;
-			flex-wrap: wrap;
-
-			list-style: none;
-		}
-	}
-	.phones {
-		margin-left: auto;
-		
-		a {
-			display: block;
-		}
+	a {
+		display: block;
 	}
 }
 

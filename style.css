@@ -12,10 +12,6 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
 }
 
-.header__wrapper {
-  margin: 0 auto;
-}
-
 .menu {
   max-width: 1213px;
   display: -webkit-box;
@@ -34,16 +30,16 @@ body {
   text-decoration: none;
 }
 
-.menu .logo {
+.logo {
   margin: 19px 55px 0 45px;
 }
 
-.menu .nav {
+.nav {
   width: 787px;
   font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
-.menu .nav__list {
+.nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,11 +51,11 @@ body {
   list-style: none;
 }
 
-.menu .phones {
+.phones {
   margin-left: auto;
 }
 
-.menu .phones a {
+.phones a {
   display: block;
 }
 
