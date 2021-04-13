@@ -12,14 +12,9 @@ body {
 	font-family: 'Roboto', Arial, sans-serif;
 }
 
-// .header {
-// 	&__wrapper {
-// 		margin: 0 auto;
-// 	}
-// }
-
 .menu {
 	max-width: 1213px;
+	// margin: 0 auto;
 
 	display: flex;
 	align-items: center;
@@ -59,7 +54,9 @@ body {
 
 .slider {
 	width: 1085px;
-	margin: 3px auto 46px;
+	margin: 0 auto;
+	margin-top: 3px;
+	margin-bottom: 46px;
 }
 
 .categories {
