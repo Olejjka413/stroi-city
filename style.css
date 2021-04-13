@@ -1,75 +1,79 @@
-* {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-body {
   margin: 0;
-  background-color: #000927;
-  font-family: 'Roboto', Arial, sans-serif;
-  font-size: 18px;
-  color: #ffffff;
-}
-
-ul {
   padding: 0;
 }
 
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.header__wrapper {
-  margin: 0 auto;
+body {
+  background-color: #000927;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 .menu {
-  max-width: 1213px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.menu .logo {
-  margin: 19px 55px 0 45px;
-}
-
-.menu .nav {
-  width: 787px;
-}
-
-.menu .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
-.menu .phones {
+.menu a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 20px 70px 30px 45px;
+  height: 90px;
+  width: 90px;
+}
+
+.nav {
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  list-style: none;
+}
+
+.nav__list li {
+  margin-right: 70px;
+  white-space: nowrap;
+}
+
+.phones {
   margin-left: auto;
+  margin-right: 150px;
+  white-space: nowrap;
 }
 
-.menu .phones a {
+.phones a {
   display: block;
 }
 
 .slider {
   width: 1085px;
-  margin: 3px auto 46px;
+  margin: 0 auto;
+  margin-top: 3px;
+  margin-bottom: 46px;
 }
 
 .categories {
@@ -92,10 +96,13 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  list-style: none;
 }
 
 .categories__list a {
   color: #222831;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .categories__list a::after {
@@ -107,102 +114,35 @@ a {
   background: url(img/nav-arrow.svg);
 }
 
-.catalogs {
-  margin: 0 100px 0 100px;
+.products {
+  margin: 50px 200px 50px 200px;
 }
 
-.catalogs__heading {
+.products__heading {
   font-size: 36px;
   font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
 }
 
-.catalogs__wrapper {
+.products__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 100px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-.catalogs__p {
-  line-height: 30px;
-  margin-top: 5px;
+.bordered {
+  width: 205px;
+  height: 205px;
+  border: solid #ffffff 2px;
+  margin: 40px;
 }
 
-.figure__stroi {
-  background-image: url("/img/Rectangle 4.svg");
-  width: 365px;
-  height: 305px;
-  margin-left: 205px;
-}
-
-.figure__stroi__heading {
-  font-size: 24px;
-  font-weight: 400;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 10px 0 0 10px;
-}
-
-.figure__stroi__number {
-  font-family: Saira;
-  font-size: 144px;
-  margin: 0;
-  margin-left: 30px;
-  color: #E7DEFF;
-  line-height: 160px;
-}
-
-.figure__stroi__text {
-  color: #E7DEFF;
-  font-size: 24px;
-  margin-top: -15px;
-  margin-left: 50px;
-}
-
-.stroi__text-wrapper {
-  margin-left: 55px;
-  max-width: 630px;
-}
-
-.balterio__text {
-  max-width: 730px;
-  margin-left: auto;
-}
-
-.figure__balterio {
-  background-image: url("/img/Rectangle 4 (2).svg");
-  width: 285px;
-  height: 310px;
-  margin-left: 55px;
-  margin-right: 180px;
-}
-
-.figure__balterio__heading {
-  font-size: 24px;
-  font-weight: 400;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 10px 0 0 10px;
-}
-
-.figure__balterio__number {
-  font-family: Saira;
-  font-size: 144px;
-  margin: 0;
-  margin-left: -33px;
-  color: #E7DEFF;
-  line-height: 160px;
-}
-
-.figure__balterio__text {
-  color: #E7DEFF;
-  font-size: 24px;
-  margin-top: -15px;
-  margin-left: 70px;
+.bordered__img {
+  -webkit-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
 }
 /*# sourceMappingURL=style.css.map */
