@@ -13,15 +13,17 @@ body {
 }
 
 .menu {
-  max-width: 1213px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .menu a {
@@ -31,11 +33,12 @@ body {
 }
 
 .logo {
-  margin: 19px 55px 0 45px;
+  margin: 20px 70px 30px 45px;
+  height: 90px;
+  width: 90px;
 }
 
 .nav {
-  width: 787px;
   font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
@@ -46,13 +49,20 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   list-style: none;
+}
+
+.nav__list li {
+  margin-right: 70px;
+  white-space: nowrap;
 }
 
 .phones {
   margin-left: auto;
+  margin-right: 150px;
+  white-space: nowrap;
 }
 
 .phones a {
@@ -110,6 +120,7 @@ body {
 }
 
 .catalogs__heading {
+  margin-top: 29px;
   font-size: 36px;
   font-weight: 400;
   text-align: center;
@@ -132,7 +143,7 @@ body {
 }
 
 .figure__stroi {
-  background-image: url("/img/Rectangle 4.svg");
+  background-image: url("img/catalog1.svg");
   width: 365px;
   height: 305px;
   margin-left: 205px;
@@ -173,7 +184,7 @@ body {
 }
 
 .figure__balterio {
-  background-image: url("/img/Rectangle 4 (2).svg");
+  background-image: url("img/catalog2.svg");
   width: 285px;
   height: 310px;
   margin-left: 55px;
@@ -235,9 +246,13 @@ body {
 .news__item {
   width: 306px;
   margin-bottom: 109px;
+}
+
+.news__item p {
   font-size: 21px;
   line-height: 25px;
   letter-spacing: 0.2em;
+  color: #ffffff;
 }
 
 .news__item a {
@@ -246,6 +261,10 @@ body {
   letter-spacing: 0.2em;
   color: #1e2c59;
   text-decoration: none;
+}
+
+.news__item a:hover {
+  color: #ffffff;
 }
 
 .news__item:nth-last-child(-n+3) {
@@ -291,9 +310,12 @@ body {
   content: "-";
 }
 
-.contacts__heading {
+.contacts {
   max-width: 1083px;
   margin: 0 auto;
+}
+
+.contacts__heading {
   margin-bottom: 16px;
   color: #ffffff;
   font-size: 36px;
@@ -303,19 +325,113 @@ body {
 }
 
 .location {
-  width: 1083px;
+  width: 100%;
   height: 42px;
   margin: 0 auto;
-}
-
-.location__option {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 24px;
   line-height: 28px;
+  color: rgba(0, 0, 0, 0.37);
+}
+
+.location__option {
   color: #000000;
 }
 
-.location__option--disabled {
-  color: rgba(0, 0, 0, 0.37);
+.moscow__heading {
+  margin-top: 36px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.moscow__wrapper {
+  max-width: 983px;
+  margin: 0 auto;
+}
+
+.moscow__flex {
+  margin-bottom: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.moscow h3,
+.moscow p,
+.moscow p a {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.moscow a:hover {
+  color: #7485BA;
+}
+
+.moscow h3, .moscow p {
+  color: #7485BA;
+}
+
+.moscow__address-phones {
+  width: 450px;
+}
+
+.moscow__emails {
+  width: 385px;
+}
+
+.moscow__rechnoi, .moscow__podolsk {
+  width: 406px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.moscow__rechnoi p, .moscow__podolsk p {
+  color: #ffffff;
+}
+
+.moscow__rechnoi {
+  margin-bottom: 50px;
+}
+
+.moscow__podolsk {
+  margin-bottom: 35px;
+}
+
+.moscow__map {
+  position: relative;
+}
+
+.moscow__map img {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.moscow__map__gps {
+  width: 478px;
+  position: absolute;
+  bottom: 0px;
+  left: calc(100% / 2 - 239px);
+  padding: 21px 46px;
+  background-color: #000927;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.margin-30 {
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
