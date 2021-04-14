@@ -206,6 +206,21 @@ a {
   margin-left: 70px;
 }
 
+.catalog__heading {
+  text-align: center;
+  font-weight: 400;
+}
+
+.catalog__search {
+  margin-left: 240px;
+  width: 1000px;
+  height: 35px;
+  font-size: 20px;
+  color: grey;
+  font-family: Roboto;
+  border: none;
+}
+
 .products {
   margin: 50px 200px 50px 200px;
 }
