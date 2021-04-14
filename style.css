@@ -107,6 +107,7 @@ a {
   background: url(img/nav-arrow.svg);
 }
 
+<<<<<<< Updated upstream
 .catalogs {
   margin: 0 100px 0 100px;
 }
@@ -204,5 +205,37 @@ a {
   font-size: 24px;
   margin-top: -15px;
   margin-left: 70px;
+=======
+.products {
+  margin: 50px 200px 50px 200px;
+}
+
+.products__heading {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.products__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.bordered {
+  width: 205px;
+  height: 205px;
+  border: solid #ffffff 2px;
+  margin: 40px;
+}
+
+.bordered__img {
+  -webkit-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
+>>>>>>> Stashed changes
 }
 /*# sourceMappingURL=style.css.map */
