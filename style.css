@@ -12,6 +12,14 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
 }
 
+.water {
+  text-align: center;
+  color: #16151f;
+  background-color: #696e8f;
+  margin-top: 60px;
+  padding: 20px;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,6 +65,10 @@ body {
 .nav__list li {
   margin-right: 70px;
   white-space: nowrap;
+}
+
+.nav__list a:hover {
+  color: #4b5d9b;
 }
 
 .phones {
@@ -114,7 +126,21 @@ body {
   background: url(img/nav-arrow.svg);
 }
 
+.categories__list a:hover {
+  color: #7e7e8d;
+}
+
 .catalogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 100px;
   color: #ffffff;
 }
@@ -133,7 +159,7 @@ body {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  max-width: 1040px;
+  width: 1048px;
   margin-top: 80px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -194,7 +220,7 @@ body {
 
 .figure__balterio {
   background-image: url("img/catalog2.svg");
-  width: 285px;
+  width: 290px;
   height: 310px;
   margin-left: 55px;
 }
@@ -259,7 +285,7 @@ body {
 .news__item p {
   font-size: 21px;
   line-height: 25px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   color: #ffffff;
 }
 
@@ -267,7 +293,7 @@ body {
   font-size: 21px;
   line-height: 25px;
   letter-spacing: 0.2em;
-  color: #1e2c59;
+  color: #4b5d9b;
   text-decoration: none;
 }
 

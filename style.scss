@@ -8,10 +8,19 @@
 
 body {
 	background-color: #000927;
-
+	
 	font-family: 'Roboto', Arial, sans-serif;
 }
 
+///вотермарка
+.water {
+	text-align: center;
+	color: #16151f;
+	background-color:#696e8f;
+	margin-top: 60px;
+	padding: 20px;
+
+}
 .menu {
 
 	display: flex;
@@ -41,15 +50,19 @@ body {
 		justify-content: space-between;
 		flex-wrap: nowrap;
 		list-style: none;
+
+		li {margin-right: 70px;
+			white-space: nowrap;
+			}
+		a:hover {
+			color:#4b5d9b;
+		}
 	}
 
 }
 
-.nav__list li {
-	margin-right: 70px;
-	white-space: nowrap;
-	
-}
+
+
 .phones {
 	margin-left: auto;
 	margin-right: 150px;
@@ -101,10 +114,16 @@ body {
 
 			background: url(img/nav-arrow.svg);
 		}
+		a:hover {
+			color: #7e7e8d;
+		}
 	}
 }
 
 .catalogs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	margin: 0 100px;
 	color: #ffffff;
 	
@@ -120,7 +139,7 @@ body {
 		display: flex;
 		flex-wrap: nowrap;
 		
-		max-width: 1040px;
+		width: 1048px;
 		margin-top: 80px;
 		align-items: center;
 		justify-content: space-between;
@@ -182,7 +201,7 @@ body {
 }
 .figure__balterio{
 	background-image: url('img/catalog2.svg');
-	width: 285px;
+	width: 290px;
 	height: 310px;
 	margin-left: 55px;
 
@@ -246,15 +265,16 @@ body {
 		p {
 			font-size: 21px;
 			line-height: 25px;
-			letter-spacing: 0.2em;
+			letter-spacing: 0.1em;
 			color: #ffffff;
 		}
 		
 		a {
+			
 			font-size: 21px;
 			line-height: 25px;
 			letter-spacing: 0.2em;
-			color: #1e2c59;
+			color: #4b5d9b;
 			text-decoration: none;
 		}
 
