@@ -97,7 +97,6 @@ a {
 	}
 }
 
-<<<<<<< Updated upstream
 .catalogs {
 	margin: 0 100px 0 100px;
 	&__heading {
@@ -198,7 +197,6 @@ a {
 	}
 
 }
-=======
 
 
 //////////////////////////////////////////////|||||||||||||||||| КАТАЛОГ ||||||||||||||||||||||||||||||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -209,6 +207,7 @@ a {
 	margin:  50px 200px 50px 200px;
 
 	&__heading {
+		margin-left: 40px;
 		font-size: 36px;
 		font-weight: 400;
 	}
@@ -229,4 +228,24 @@ a {
 		transform: translate(10px, -10px);
 	}
 }
->>>>>>> Stashed changes
+
+.footer-secondary {
+	&__line {
+		background-color:#ffffff;
+		border: none;
+		height: 1px;
+		width: 685px;
+		
+	}
+	&__map{
+		color: #ACADBE;
+		text-align: center;
+		font-size: 24px;
+	}
+	&__text {
+		
+		color: #7B7E93;
+		text-align: center;
+		font-size: 24px;
+	}
+}
