@@ -13,12 +13,11 @@ body {
 }
 
 .menu {
-	max-width: 1213px;
-	// margin: 0 auto;
 
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 
 	a {
 		color: #ffffff;
@@ -28,32 +27,41 @@ body {
 }
 
 .logo {
-	margin: 19px 55px 0 45px;
+	margin: 20px 70px 30px 45px;
+	height: 90px;
+	width: 90px;
 }
 
 .nav {
-	width: 787px;
-
+	
 	font-family: 'Roboto Condensed', Arial, sans-serif;
 
 	&__list {
 		display: flex;
 		justify-content: space-between;
-		flex-wrap: wrap;
-
+		flex-wrap: nowrap;
 		list-style: none;
 	}
+
+}
+
+.nav__list li {
+	margin-right: 70px;
+	white-space: nowrap;
+	
 }
 .phones {
 	margin-left: auto;
+	margin-right: 150px;
+	white-space: nowrap;
 	
 	a {
 		display: block;
 	}
 }
-
 .slider {
 	width: 1085px;
+
 	margin: 0 auto;
 	margin-top: 3px;
 	margin-bottom: 46px;
@@ -101,6 +109,7 @@ body {
 	color: #ffffff;
 	
 	&__heading {
+		margin-top: 29px;
 		font-size: 36px;
 		font-weight: 400;
 		text-align: center;
@@ -120,7 +129,7 @@ body {
 }
 
 .figure__stroi {
-	background-image: url('/img/Rectangle 4.svg');
+	background-image: url('img/catalog1.svg');
 	width: 365px;
 	height: 305px;
 	margin-left: 205px;
@@ -166,7 +175,7 @@ body {
 	margin-left: auto;
 }
 .figure__balterio{
-	background-image: url('/img/Rectangle 4 (2).svg');
+	background-image: url('img/catalog2.svg');
 	width: 285px;
 	height: 310px;
 	margin-left: 55px;
@@ -228,16 +237,23 @@ body {
 		width: 306px;
 		margin-bottom: 109px;
 
-		font-size: 21px;
-		line-height: 25px;
-		letter-spacing: 0.2em;
-
+		p {
+			font-size: 21px;
+			line-height: 25px;
+			letter-spacing: 0.2em;
+			color: #ffffff;
+		}
+		
 		a {
 			font-size: 21px;
 			line-height: 25px;
 			letter-spacing: 0.2em;
 			color: #1e2c59;
 			text-decoration: none;
+		}
+
+		a:hover {
+			color: #ffffff;
 		}
 	}
 
@@ -283,9 +299,10 @@ body {
 }
 
 .contacts {
+	max-width: 1083px;
+	margin: 0 auto;
+
 	&__heading {
-		max-width: 1083px;
-		margin: 0 auto;
 		margin-bottom: 16px;
 
 		color: #ffffff;
@@ -297,18 +314,118 @@ body {
 }
 
 .location {
-	width: 1083px;
+	width: 100%;
 	height: 42px;
 	margin: 0 auto;
 
-	&__option {
-		font-family: 'Roboto', Arial, sans-serif;
-		font-size: 24px;
-		line-height: 28px;
-		color: #000000;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	color: rgba(0, 0, 0, 0.37);
 
-		&--disabled {
-			color: rgba(0, 0, 0, 0.37);
+	&__option {
+		color: #000000;
+	}
+}
+
+.moscow {
+
+
+	&__heading {
+		margin-top: 36px;
+		margin-bottom: 20px;
+
+		color: #ffffff;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	&__wrapper {
+		max-width: 983px;
+		margin: 0 auto;
+	}
+
+	&__flex {
+		margin-bottom: 27px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	h3,
+	p,
+	p a {
+		font-size: 18px;
+		line-height: 21px;
+		font-weight: 400;
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #7485BA;
+	}
+
+	h3, p {
+		color: #7485BA;
+	}
+
+	&__address-phones {
+		width: 450px;
+	}
+
+	&__emails {
+		width: 385px;
+	}
+
+	&__rechnoi,
+	&__podolsk {
+		width: 406px;
+		margin: 0 auto;
+		text-align: center;
+
+		p {
+			color: #ffffff;
 		}
 	}
+
+	&__rechnoi {
+		margin-bottom: 50px;
+	}
+
+	&__podolsk {
+		margin-bottom: 35px;
+	}
+
+	&__map {
+		position: relative;
+
+		img {
+			max-width: 1440px;
+			width: 100%;
+		}
+
+		&__gps {
+			width: 478px;
+			position: absolute;
+			bottom: 0px;
+			left: calc(100% / 2 - 239px);
+			padding: 21px 46px;
+
+			background-color: #000927;
+			color: #ffffff;
+			font-size: 24px;
+			line-height: 28px;
+			text-align: center;
+
+			cursor: pointer;
+		}
+	}
+
+}
+
+.margin-30 {
+	margin-bottom: 30px;
 }
