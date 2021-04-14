@@ -33,7 +33,7 @@ body {
 }
 
 .logo {
-  margin: 20px 70px 30px 45px;
+  margin: 20px 90px 30px 60px;
   height: 90px;
   width: 90px;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .catalogs {
-  margin: 0 100px 0 100px;
+  margin: 0 100px;
   color: #ffffff;
 }
 
@@ -131,10 +131,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 100px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  max-width: 1040px;
+  margin-top: 80px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .catalogs__p {
@@ -142,11 +148,14 @@ body {
   margin-top: 5px;
 }
 
+.balterio__wrapper {
+  margin-top: 30px;
+}
+
 .figure__stroi {
   background-image: url("img/catalog1.svg");
   width: 365px;
   height: 305px;
-  margin-left: 205px;
 }
 
 .figure__stroi__heading {
@@ -188,7 +197,6 @@ body {
   width: 285px;
   height: 310px;
   margin-left: 55px;
-  margin-right: 180px;
 }
 
 .figure__balterio__heading {
@@ -413,6 +421,8 @@ body {
 }
 
 .moscow__map img {
+  display: block;
+  margin: 0 auto;
   max-width: 1440px;
   width: 100%;
 }
