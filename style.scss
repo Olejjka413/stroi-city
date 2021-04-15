@@ -12,7 +12,7 @@ body {
 	font-family: 'Roboto', Arial, sans-serif;
 }
 
-///вотермарка
+// вотермарка
 .water {
 	text-align: center;
 	color: #16151f;
@@ -21,6 +21,15 @@ body {
 	padding: 20px;
 
 }
+
+// хедер
+
+.header {
+	a:hover {
+		color: #7485BA;
+	}
+}
+
 .menu {
 
 	display: flex;
@@ -51,17 +60,15 @@ body {
 		flex-wrap: nowrap;
 		list-style: none;
 
-		li {margin-right: 70px;
+		li {
+			margin-right: 70px;
 			white-space: nowrap;
-			}
+		}
 		a:hover {
 			color:#4b5d9b;
 		}
 	}
-
 }
-
-
 
 .phones {
 	margin-left: auto;
@@ -72,6 +79,7 @@ body {
 		display: block;
 	}
 }
+
 .slider {
 	width: 1085px;
 
@@ -119,6 +127,8 @@ body {
 		}
 	}
 }
+
+// Главная - Каталоги
 
 .catalogs {
 	display: flex;
@@ -186,7 +196,7 @@ body {
 	}
 }
 
-.stroi{
+.stroi {
 
 	&__text-wrapper {
 		margin-left: 55px;
@@ -204,7 +214,6 @@ body {
 	width: 290px;
 	height: 310px;
 	margin-left: 55px;
-
 
 	&__heading {
 		font-size: 24px;
@@ -232,6 +241,8 @@ body {
 	}
 
 }
+
+// Главная - Новости
 
 .news {
 	max-width: 1096px;
@@ -270,7 +281,6 @@ body {
 		}
 		
 		a {
-			
 			font-size: 21px;
 			line-height: 25px;
 			letter-spacing: 0.2em;
@@ -324,6 +334,8 @@ body {
 	}
 }
 
+//Главная - Контакты
+
 .contacts {
 	max-width: 1083px;
 	margin: 0 auto;
@@ -354,8 +366,9 @@ body {
 	}
 }
 
-.moscow {
+// Главная - Контакты Москвы
 
+.moscow {
 
 	&__heading {
 		margin-top: 36px;
@@ -456,4 +469,253 @@ body {
 
 .margin-30 {
 	margin-bottom: 30px;
+}
+
+
+// О компании
+
+.about {
+	max-width: 1180px;
+	margin: 0 auto;
+
+	&__heading {
+		margin-top: 14px;
+		margin-bottom: 34px;
+
+		color: #ffffff;
+		font-size: 36px;
+		line-height: 42px;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	&__img {
+		max-width: 1111px;
+		margin: 0 auto;
+		margin-bottom: 34px;
+		position: relative;
+	}
+
+	&__button-download {
+		width: 318px;
+		height: 61px;
+		position: absolute;
+		bottom: 19px;
+		left: 397px;
+
+		background: rgba(246, 243, 255, 0.5);
+		border: 2px solid rgba(0, 9, 39, 0.5);
+		border-radius: 5px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		font-family: Roboto;
+		font-size: 24px;
+		line-height: 28px;
+		color: rgba(0, 0, 0, 0.5);
+
+		cursor: pointer;
+
+	}
+
+	&__text {
+		margin-bottom: 35px;
+
+		color: #ffffff;
+		font-size: 24px;
+		line-height: 28px;
+		text-align: justify;
+	}
+
+	&__button-more {
+		width: 143px;
+		margin: 0 auto;
+
+		font-family: 'Roboto', Arial, sans-serif;
+		font-size: 24px;
+		line-height: 28px;
+		color: #7485BA;
+
+		display: block;
+
+		cursor: pointer;
+		border: none;
+		background: none;
+	}
+
+	&__button-more:hover {
+		color: #ffffff;
+	}
+
+	&__appear {
+		display: none;
+	}
+}
+
+.about-map {
+	max-width: 1440px;
+	margin: 0 auto;
+	margin-top: 68px;
+
+	text-align: center;
+
+	&__img {
+		width: 100%;
+		margin-bottom: 55px;
+	}
+
+	&__input {
+		width: 580px;
+		height: 83px;
+		padding-left: 16px;
+		padding-top: 42px;
+		padding-bottom: 11px;
+
+		background-color: transparent;
+		border: 2px solid #F6F3FF;
+		border-radius: 5px;
+
+		font-family: 'Roboto', Arial, sans-serif;
+		color: rgba(246, 243, 255, 0.7);
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	&__button {
+		width: 407px;
+		height: 83px;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 102px;
+
+		display: block;
+
+		background: #F6F3FF;
+		border-radius: 5px;
+		border: none;
+
+		font-family: 'Roboto', Arial, sans-serif;
+		color: #000927;
+		font-size: 30px;
+		line-height: 35px;
+	}
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+  }
+
+  .footer-secondary {
+
+	&__line {
+		margin: auto;
+		margin-bottom: 40px;
+		background-color: #ACADBE;
+		border: none;
+		height: 1px;
+		width: 685px;
+		
+		
+	}
+	&__map{
+		color: #ACADBE;
+		text-align: center;
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	&__text {
+		margin: auto;
+		color: #7B7E93;
+		text-align: center;
+		font-size: 24px;
+		max-width: 1000px;
+	}
+}
+
+// Каталоги
+
+.catalog{
+
+	&__heading {
+		margin: 30px;
+		color: #ffffff;
+		text-align: center;
+		font-weight: 400;
+}
+
+	&__filter {
+		width: 1000px;
+		margin:auto;
+		
+		
+		
+		select {
+			display: block;
+			width: inherit;
+			height: 35px;
+			font-size: 20px;
+			color:grey;
+			font-family: Roboto;
+			border: none;
+		}
+	}
+
+	&__info-wrapper {
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+
+	}
+}
+
+.products {
+
+	margin:  50px 200px 50px 200px;
+
+	&__heading {
+		margin-top: 60px;
+		margin-left: 40px;
+		font-size: 36px;
+		font-weight: 400;
+		color: #ffffff;
+	}
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+}
+.bordered {
+
+	width: 205px;
+	height: 205px;
+	border: solid #ffffff 2px;
+	margin: 40px;
+
+	&__img{
+		transform: translate(10px, -10px);
+	}
+}
+
+.info {
+	margin-bottom: 80px;
+	&__topics {
+		margin-right: 30px;
+		margin-top: 50px;
+
+		button {
+			font-family: 'Roboto', Arial, sans-serif;
+			margin-bottom: 60px;
+			border: none;
+			font-size: 24px;
+			color: #ccc8d6;
+			background: rgba(255, 255, 255, 0.0);
+		}
+	}
 }
