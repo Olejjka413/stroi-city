@@ -705,11 +705,71 @@ body {
 }
 
 .info__topics button {
-  font-family: 'Roboto', Arial, sans-serif;
+  font: Roboto;
+  font-weight: 400;
   margin-bottom: 60px;
   border: none;
   font-size: 24px;
   color: #ccc8d6;
   background: rgba(255, 255, 255, 0);
+}
+
+.info__topics button:hover {
+  text-decoration: underline;
+}
+
+.info__description {
+  max-width: 600px;
+  color: #ccc8d6;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.info__description h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.info__description p {
+  font-size: 20px;
+  text-indent: 25px;
+  margin-bottom: 20px;
+}
+
+.info__description ul, .info__description ol {
+  list-style-position: inside;
+  font-size: 20px;
+  text-indent: 25px;
+  margin-bottom: 20px;
+}
+
+.info__description ul li, .info__description ol li {
+  margin-top: 10px;
+}
+
+.footer-secondary__line {
+  margin: auto;
+  margin-bottom: 40px;
+  background-color: #ACADBE;
+  border: none;
+  height: 1px;
+  width: 685px;
+}
+
+.footer-secondary__map {
+  color: #ACADBE;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-secondary__text {
+  margin: auto;
+  color: #7B7E93;
+  text-align: center;
+  font-size: 24px;
+  max-width: 1000px;
 }
 /*# sourceMappingURL=style.css.map */
