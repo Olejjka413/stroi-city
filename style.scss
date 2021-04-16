@@ -684,9 +684,10 @@ body {
 		color: #ffffff;
 	}
 	&__list {
+		list-style: none;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: flex-start;
+		justify-content: space-between;
 	}
 }
 .bordered {
