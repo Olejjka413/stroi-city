@@ -45,7 +45,7 @@ body {
 }
 
 .logo {
-  margin: 20px 90px 30px 60px;
+  margin: 19px 55px 30px 45px;
   height: 90px;
   width: 90px;
 }
@@ -289,14 +289,12 @@ body {
 .news__item p {
   font-size: 21px;
   line-height: 25px;
-  letter-spacing: 0.1em;
   color: #ffffff;
 }
 
 .news__item a {
   font-size: 21px;
   line-height: 25px;
-  letter-spacing: 0.2em;
   color: #4b5d9b;
   text-decoration: none;
 }
@@ -309,14 +307,14 @@ body {
   margin-bottom: 65px;
 }
 
-.news .bordered {
+.news__bordered {
   width: 290px;
   height: 290px;
   margin-bottom: 5px;
   border: solid 2px #ffffff;
 }
 
-.news .bordered img {
+.news__bordered img {
   -webkit-transform: translate(10px, -10px);
           transform: translate(10px, -10px);
 }
@@ -716,6 +714,11 @@ body {
 
 .info__topics button:hover {
   text-decoration: underline;
+}
+
+.info__divider {
+  min-width: 120px;
+  min-height: 993px;
 }
 
 .info__description {

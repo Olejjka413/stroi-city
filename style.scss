@@ -45,7 +45,7 @@ body {
 }
 
 .logo {
-	margin: 20px 90px 30px 60px;
+	margin: 19px 55px 30px 45px;
 	height: 90px;
 	width: 90px;
 }
@@ -276,14 +276,12 @@ body {
 		p {
 			font-size: 21px;
 			line-height: 25px;
-			letter-spacing: 0.1em;
 			color: #ffffff;
 		}
 		
 		a {
 			font-size: 21px;
 			line-height: 25px;
-			letter-spacing: 0.2em;
 			color: #4b5d9b;
 			text-decoration: none;
 		}
@@ -297,7 +295,7 @@ body {
 		margin-bottom: 65px;
 	}
 
-	.bordered {
+	&__bordered {
 		width: 290px;
 		height: 290px;
 		margin-bottom: 5px;
@@ -725,6 +723,12 @@ body {
 			}
 		}
 	}
+
+	&__divider {
+		min-width: 120px; 
+		min-height: 993px;
+	}
+
 	&__description {
 		max-width: 600px;
 		color: #ccc8d6;
