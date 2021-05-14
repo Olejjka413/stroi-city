@@ -847,3 +847,88 @@ body {
 		font-size: 20px;
 	}
 }
+
+// товар
+
+.floorwood-arte {
+	&__heading {
+		margin: 29px 0 54px;
+
+		font-size: 36px;
+		line-height: 42px;
+		font-weight: 400;
+		color: #ffffff;
+		text-align: center;
+	}
+
+	&__info {
+		max-width: 1192px;
+		margin: 0 auto 45px;
+		display: flex;
+
+		.gallery {
+			width: 520px;
+			height: 321px;
+			margin-right: 32px;
+			position: relative;
+
+			// border: 2px solid #ffffff;
+
+			&__button {
+				width: 59px;
+				height: 51px;
+				position: absolute;
+				top: 134px;
+
+				border: none;
+				cursor: pointer;
+				background-color: rgba(196, 196, 196, 0.4);
+
+				&__back {
+					left: 0;
+				}
+
+				&__forward {
+					right: 0;
+				}
+			}
+
+			&__img {
+				
+			}
+		}
+
+		.nav {
+			margin-right: 41px;
+			list-style: none;
+
+			&__item {
+
+				&__link {
+					font-family: 'Roboto', Arial, sans-serif;
+					font-size: 30px;
+					color: #ffffff;
+					line-height: 35px;
+					text-decoration: none;
+				}
+
+				&__link:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.description {
+			max-width: 319px;
+			padding-left: 23px;
+
+			color: #ffffff;
+
+			border-left: 2px solid #ffffff;
+		}
+	}
+
+	&__products {
+
+	}
+}

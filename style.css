@@ -832,4 +832,70 @@ body {
   color: #000000;
   font-size: 20px;
 }
+
+.floorwood-arte__heading {
+  margin: 29px 0 54px;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+.floorwood-arte__info {
+  max-width: 1192px;
+  margin: 0 auto 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.floorwood-arte__info .gallery {
+  width: 520px;
+  height: 321px;
+  margin-right: 32px;
+  position: relative;
+}
+
+.floorwood-arte__info .gallery__button {
+  width: 59px;
+  height: 51px;
+  position: absolute;
+  top: 134px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(196, 196, 196, 0.4);
+}
+
+.floorwood-arte__info .gallery__button__back {
+  left: 0;
+}
+
+.floorwood-arte__info .gallery__button__forward {
+  right: 0;
+}
+
+.floorwood-arte__info .nav {
+  margin-right: 41px;
+  list-style: none;
+}
+
+.floorwood-arte__info .nav__item__link {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 35px;
+  text-decoration: none;
+}
+
+.floorwood-arte__info .nav__item__link:hover {
+  text-decoration: underline;
+}
+
+.floorwood-arte__info .description {
+  max-width: 319px;
+  padding-left: 23px;
+  color: #ffffff;
+  border-left: 2px solid #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
