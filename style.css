@@ -828,7 +828,7 @@ body {
   border-radius: 5px;
 }
 
-.city-select__option:not(.city-select--disabled) {
+.city-select__option {
   color: #000000;
   font-size: 20px;
 }
