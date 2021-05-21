@@ -45,7 +45,7 @@ body {
 }
 
 .logo {
-	margin: 19px 55px 30px 45px;
+	margin: 19px 80px 30px 100px;
 	height: 90px;
 	width: 90px;
 }
@@ -158,6 +158,7 @@ body {
 	&__p {
 		line-height: 30px;
 		margin-top: 5px;
+		font-size: 18px;
 	}
 }
 
@@ -252,8 +253,8 @@ body {
 	color: #ffffff;
 
 	&__heading {
-		margin-top: 33px;
-		margin-bottom: 32px;
+		margin-top: 60px;
+		margin-bottom: 50px;
 
 		font-size: 36px;
 		font-weight: 400;
@@ -274,16 +275,22 @@ body {
 		margin-bottom: 109px;
 
 		p {
-			font-size: 21px;
+			font-size: 18px;
 			line-height: 25px;
 			color: #ffffff;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			
 		}
 		
 		a {
-			font-size: 21px;
+
+			
+			font-size: 18px;
 			line-height: 25px;
-			color: #4b5d9b;
+			color: #7485BA;
 			text-decoration: none;
+			margin-top: 20px;
 		}
 
 		a:hover {
@@ -355,7 +362,7 @@ body {
 	margin: 0 auto;
 
 	font-family: 'Roboto', Arial, sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 28px;
 	color: rgba(0, 0, 0, 0.37);
 
@@ -455,7 +462,7 @@ body {
 
 			background-color: #000927;
 			color: #ffffff;
-			font-size: 24px;
+			font-size: 20px;
 			line-height: 28px;
 			text-align: center;
 
@@ -477,11 +484,11 @@ body {
 	margin: 0 auto;
 
 	&__heading {
-		margin-top: 14px;
-		margin-bottom: 34px;
+		margin-top: 80px;
+		margin-bottom: 80px;
 
 		color: #ffffff;
-		font-size: 36px;
+		font-size: 40px;
 		line-height: 42px;
 		font-weight: 400;
 		text-align: center;
@@ -510,7 +517,7 @@ body {
 		align-items: center;
 
 		font-family: Roboto;
-		font-size: 24px;
+		font-size: 20px;
 		line-height: 28px;
 		color: rgba(0, 0, 0, 0.5);
 
@@ -522,7 +529,7 @@ body {
 		margin-bottom: 35px;
 
 		color: #ffffff;
-		font-size: 24px;
+		font-size: 18px;
 		line-height: 28px;
 		text-align: justify;
 	}
@@ -532,7 +539,7 @@ body {
 		margin: 0 auto;
 
 		font-family: 'Roboto', Arial, sans-serif;
-		font-size: 24px;
+		font-size: 20px;
 		line-height: 28px;
 		color: #7485BA;
 
@@ -565,11 +572,11 @@ body {
 	}
 
 	&__input {
-		width: 580px;
-		height: 83px;
+		width: 500px;
+		height: 60px;
 		padding-left: 16px;
 		padding-top: 42px;
-		padding-bottom: 11px;
+		padding-bottom: 30px;
 
 		background-color: transparent;
 		border: 2px solid #F6F3FF;
@@ -577,13 +584,13 @@ body {
 
 		font-family: 'Roboto', Arial, sans-serif;
 		color: rgba(246, 243, 255, 0.7);
-		font-size: 24px;
+		font-size: 22px;
 		line-height: 28px;
 	}
 
 	&__button {
-		width: 407px;
-		height: 83px;
+		width: 300px;
+		height: 70px;
 		margin: 0 auto;
 		margin-top: 20px;
 		margin-bottom: 102px;
@@ -596,7 +603,7 @@ body {
 
 		font-family: 'Roboto', Arial, sans-serif;
 		color: #000927;
-		font-size: 30px;
+		font-size: 22px;
 		line-height: 35px;
 	}
 }
@@ -641,10 +648,13 @@ body {
 .catalog{
 
 	&__heading {
+		
 		margin: 30px;
+		margin-top: 200px;
 		color: #ffffff;
 		text-align: center;
 		font-weight: 400;
+		
 }
 
 	&__filter {
@@ -659,6 +669,7 @@ body {
 			color:grey;
 			font-family: Roboto;
 			border: none;
+			padding-left: 10px;
 		}
 	}
 
@@ -666,6 +677,7 @@ body {
 		display: flex;
 		align-items: flex-start;
 		justify-content: center;
+		margin-bottom: 60px;
 
 	}
 }
@@ -676,16 +688,27 @@ body {
 
 	&__heading {
 		margin-top: 60px;
-		margin-left: 40px;
+		margin-left: 120px;
+		margin-bottom: 30px;
 		font-size: 36px;
 		font-weight: 400;
 		color: #ffffff;
 	}
 	&__list {
+		margin-left: 100px;
 		list-style: none;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		justify-content: flex-start;
+
+		&__item {
+			font-size: 18px;
+			color: #ffffff;
+			margin-left: 50px;
+			margin-top: -25px;
+			margin-bottom: 20px;
+
+		}
 	}
 }
 .bordered {
@@ -712,7 +735,7 @@ body {
 			font-weight: 400;
 			margin-bottom: 60px;
 			border: none;
-			font-size: 24px;
+			font-size: 20px;
 			color: #ccc8d6;
 			background: rgba(255, 255, 255, 0.0);
 
@@ -735,18 +758,18 @@ body {
 		margin-top: 40px;
 		
 		h3 {
-			font-size: 20px;
+			font-size: 18px;
 			font-weight: 600;
 			color:white;
 			margin-bottom: 30px;
 	}
-		p { font-size: 20px;
+		p { font-size: 16px;
 			text-indent: 25px;
 			margin-bottom: 20px;}
 		
 		ul, ol {
 			list-style-position: inside;
-			font-size: 20px;
+			font-size: 16px;
 			text-indent: 25px;
 			margin-bottom: 20px;
 			li {margin-top: 10px;}}
@@ -773,14 +796,14 @@ body {
 	&__map{
 		color: #ACADBE;
 		text-align: center;
-		font-size: 24px;
+		font-size: 20px;
 		margin-bottom: 20px;
 	}
 	&__text {
 		margin: auto;
 		color: #7B7E93;
 		text-align: center;
-		font-size: 24px;
+		font-size: 18px;
 		max-width: 1000px;
 	}
 }
@@ -839,6 +862,154 @@ body {
 	font-size: 28px;
 	line-height: 32px;
 	color: #D7D2E5;
+	border: 4px solid #000000;
+	border-radius: 5px;
+
+	&__option {
+		color: #000000;
+		font-size: 20px;
+	}
+}
+
+// товар
+
+.floorwood-arte {
+	&__heading {
+		margin: 29px 0 54px;
+
+		font-size: 36px;
+		line-height: 42px;
+		font-weight: 400;
+		color: #ffffff;
+		text-align: center;
+	}
+
+	&__info {
+		max-width: 1192px;
+		margin: 0 auto 45px;
+		display: flex;
+
+		.gallery {
+			width: 520px;
+			height: 321px;
+			margin-right: 32px;
+			position: relative;
+
+			// border: 2px solid #ffffff;
+
+			&__button {
+				width: 59px;
+				height: 51px;
+				position: absolute;
+				top: 134px;
+
+				border: none;
+				cursor: pointer;
+				background-color: rgba(196, 196, 196, 0.4);
+
+				&__back {
+					left: 0;
+				}
+
+				&__forward {
+					right: 0;
+				}
+			}
+
+			&__img {
+				
+			}
+		}
+
+		.nav {
+			margin-right: 41px;
+			list-style: none;
+
+			&__item {
+
+				&__link {
+					font-family: 'Roboto', Arial, sans-serif;
+					font-size: 30px;
+					color: #ffffff;
+					line-height: 35px;
+					text-decoration: none;
+				}
+
+				&__link:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.description {
+			max-width: 319px;
+			padding-left: 23px;
+
+			color: #ffffff;
+
+			border-left: 2px solid #ffffff;
+		}
+	}
+
+	&__products {
+
+	}
+}
+
+// где купить
+
+.where-buy {
+
+	&__info {
+		width: 727px;
+		margin: 0 auto;
+	}
+
+	&__heading {
+		font-size: 36px;
+		line-height: 42px;
+		font-weight: 400;
+		color: #ffffff;
+		margin: 32px 0 60px;
+		text-align: center;
+	}
+
+	&__map {
+		position: relative;
+		margin-bottom: 115px;
+
+		&__img {
+			display: block;
+			margin: 0 auto;
+			max-width: 1440px;
+			width: 100%;
+		}
+
+		&__gps {
+			width: 478px;
+			position: absolute;
+			bottom: 0;
+			left: calc(100% / 2 - 239px);
+			padding: 29px 46px;
+
+			background-color: #000927;
+			color: #ffffff;
+			font-size: 20px;
+			line-height: 28px;
+			text-align: center;
+			text-decoration: none;
+		}
+	}
+}
+
+.city-select {
+	width: 100%;
+	height: 60px;
+	margin-bottom: 56px;
+	padding-left: 10px;
+	font-size: 22px;
+	line-height: 32px;
+	color: #b1acc0;
 	border: 4px solid #000000;
 	border-radius: 5px;
 

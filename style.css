@@ -45,7 +45,7 @@ body {
 }
 
 .logo {
-  margin: 19px 55px 30px 45px;
+  margin: 19px 80px 30px 100px;
   height: 90px;
   width: 90px;
 }
@@ -176,6 +176,7 @@ body {
 .catalogs__p {
   line-height: 30px;
   margin-top: 5px;
+  font-size: 18px;
 }
 
 .balterio__wrapper {
@@ -261,8 +262,8 @@ body {
 }
 
 .news__heading {
-  margin-top: 33px;
-  margin-bottom: 32px;
+  margin-top: 60px;
+  margin-bottom: 50px;
   font-size: 36px;
   font-weight: 400;
   text-align: center;
@@ -287,16 +288,19 @@ body {
 }
 
 .news__item p {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
   color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .news__item a {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
-  color: #4b5d9b;
+  color: #7485BA;
   text-decoration: none;
+  margin-top: 20px;
 }
 
 .news__item a:hover {
@@ -365,7 +369,7 @@ body {
   height: 42px;
   margin: 0 auto;
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   color: rgba(0, 0, 0, 0.37);
 }
@@ -463,7 +467,7 @@ body {
   padding: 21px 46px;
   background-color: #000927;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   text-align: center;
   cursor: pointer;
@@ -479,10 +483,10 @@ body {
 }
 
 .about__heading {
-  margin-top: 14px;
-  margin-bottom: 34px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   color: #ffffff;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 42px;
   font-weight: 400;
   text-align: center;
@@ -514,7 +518,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-family: Roboto;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
@@ -523,7 +527,7 @@ body {
 .about__text {
   margin-bottom: 35px;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 28px;
   text-align: justify;
 }
@@ -532,7 +536,7 @@ body {
   width: 143px;
   margin: 0 auto;
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   color: #7485BA;
   display: block;
@@ -562,23 +566,23 @@ body {
 }
 
 .about-map__input {
-  width: 580px;
-  height: 83px;
+  width: 500px;
+  height: 60px;
   padding-left: 16px;
   padding-top: 42px;
-  padding-bottom: 11px;
+  padding-bottom: 30px;
   background-color: transparent;
   border: 2px solid #F6F3FF;
   border-radius: 5px;
   font-family: 'Roboto', Arial, sans-serif;
   color: rgba(246, 243, 255, 0.7);
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
 }
 
 .about-map__button {
-  width: 407px;
-  height: 83px;
+  width: 300px;
+  height: 70px;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 102px;
@@ -588,7 +592,7 @@ body {
   border: none;
   font-family: 'Roboto', Arial, sans-serif;
   color: #000927;
-  font-size: 30px;
+  font-size: 22px;
   line-height: 35px;
 }
 
@@ -626,6 +630,7 @@ body {
 
 .catalog__heading {
   margin: 30px;
+  margin-top: 200px;
   color: #ffffff;
   text-align: center;
   font-weight: 400;
@@ -644,6 +649,7 @@ body {
   color: grey;
   font-family: Roboto;
   border: none;
+  padding-left: 10px;
 }
 
 .catalog__info-wrapper {
@@ -656,6 +662,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 60px;
 }
 
 .products {
@@ -664,22 +671,32 @@ body {
 
 .products__heading {
   margin-top: 60px;
-  margin-left: 40px;
+  margin-left: 120px;
+  margin-bottom: 30px;
   font-size: 36px;
   font-weight: 400;
   color: #ffffff;
 }
 
 .products__list {
+  margin-left: 100px;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.products__list__item {
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: -25px;
+  margin-bottom: 20px;
 }
 
 .bordered {
@@ -708,7 +725,7 @@ body {
   font-weight: 400;
   margin-bottom: 60px;
   border: none;
-  font-size: 24px;
+  font-size: 20px;
   color: #ccc8d6;
   background: rgba(255, 255, 255, 0);
 }
@@ -730,21 +747,21 @@ body {
 }
 
 .info__description h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: white;
   margin-bottom: 30px;
 }
 
 .info__description p {
-  font-size: 20px;
+  font-size: 16px;
   text-indent: 25px;
   margin-bottom: 20px;
 }
 
 .info__description ul, .info__description ol {
   list-style-position: inside;
-  font-size: 20px;
+  font-size: 16px;
   text-indent: 25px;
   margin-bottom: 20px;
 }
@@ -765,7 +782,7 @@ body {
 .footer-secondary__map {
   color: #ACADBE;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -773,7 +790,7 @@ body {
   margin: auto;
   color: #7B7E93;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   max-width: 1000px;
 }
 
@@ -824,6 +841,129 @@ body {
   font-size: 28px;
   line-height: 32px;
   color: #D7D2E5;
+  border: 4px solid #000000;
+  border-radius: 5px;
+}
+
+.city-select__option {
+  color: #000000;
+  font-size: 20px;
+}
+
+.floorwood-arte__heading {
+  margin: 29px 0 54px;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+.floorwood-arte__info {
+  max-width: 1192px;
+  margin: 0 auto 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.floorwood-arte__info .gallery {
+  width: 520px;
+  height: 321px;
+  margin-right: 32px;
+  position: relative;
+}
+
+.floorwood-arte__info .gallery__button {
+  width: 59px;
+  height: 51px;
+  position: absolute;
+  top: 134px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(196, 196, 196, 0.4);
+}
+
+.floorwood-arte__info .gallery__button__back {
+  left: 0;
+}
+
+.floorwood-arte__info .gallery__button__forward {
+  right: 0;
+}
+
+.floorwood-arte__info .nav {
+  margin-right: 41px;
+  list-style: none;
+}
+
+.floorwood-arte__info .nav__item__link {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 35px;
+  text-decoration: none;
+}
+
+.floorwood-arte__info .nav__item__link:hover {
+  text-decoration: underline;
+}
+
+.floorwood-arte__info .description {
+  max-width: 319px;
+  padding-left: 23px;
+  color: #ffffff;
+  border-left: 2px solid #ffffff;
+}
+
+.where-buy__info {
+  width: 727px;
+  margin: 0 auto;
+}
+
+.where-buy__heading {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 32px 0 60px;
+  text-align: center;
+}
+
+.where-buy__map {
+  position: relative;
+  margin-bottom: 115px;
+}
+
+.where-buy__map__img {
+  display: block;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.where-buy__map__gps {
+  width: 478px;
+  position: absolute;
+  bottom: 0;
+  left: calc(100% / 2 - 239px);
+  padding: 29px 46px;
+  background-color: #000927;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.city-select {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 56px;
+  padding-left: 10px;
+  font-size: 22px;
+  line-height: 32px;
+  color: #b1acc0;
   border: 4px solid #000000;
   border-radius: 5px;
 }
