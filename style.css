@@ -833,7 +833,7 @@ body {
   font-size: 20px;
 }
 
-.floorwood-arte__heading {
+.item__heading {
   margin: 29px 0 54px;
   font-size: 36px;
   line-height: 42px;
@@ -842,7 +842,7 @@ body {
   text-align: center;
 }
 
-.floorwood-arte__info {
+.item__info {
   max-width: 1192px;
   margin: 0 auto 45px;
   display: -webkit-box;
@@ -850,14 +850,24 @@ body {
   display: flex;
 }
 
-.floorwood-arte__info .gallery {
+.item__info .gallery {
   width: 520px;
   height: 321px;
   margin-right: 32px;
-  position: relative;
+  border: 2px solid #ffffff;
 }
 
-.floorwood-arte__info .gallery__button {
+.item__info .gallery__wrapper {
+  position: relative;
+  -webkit-transform: translate(16px, -20px);
+          transform: translate(16px, -20px);
+}
+
+.item__info .gallery__img {
+  width: 100%;
+}
+
+.item__info .gallery__button {
   width: 59px;
   height: 51px;
   position: absolute;
@@ -867,39 +877,39 @@ body {
   background-color: rgba(196, 196, 196, 0.4);
 }
 
-.floorwood-arte__info .gallery__button__back {
+.item__info .gallery__button__back {
   left: 0;
 }
 
-.floorwood-arte__info .gallery__button__forward {
+.item__info .gallery__button__forward {
   right: 0;
 }
 
-.floorwood-arte__info .nav {
+.item__info .nav {
   margin-right: 41px;
   list-style: none;
 }
 
-.floorwood-arte__info .nav__item__link {
+.item__info .nav__item__link {
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   color: #ffffff;
   line-height: 35px;
   text-decoration: none;
 }
 
-.floorwood-arte__info .nav__item__link:hover {
+.item__info .nav__item__link:hover {
   text-decoration: underline;
 }
 
-.floorwood-arte__info .description {
+.item__info .description {
   max-width: 319px;
   padding-left: 23px;
   color: #ffffff;
   border-left: 2px solid #ffffff;
 }
 
-.floorwood-arte__line {
+.item__line {
   background-color: #ffffff;
   margin: 0 auto;
   border: none;
@@ -907,7 +917,7 @@ body {
   height: 1px;
 }
 
-.floorwood-arte__products {
+.item__products {
   margin-top: 89px;
 }
 
@@ -1058,7 +1068,7 @@ body {
   font-weight: 400;
   font-size: 21px;
   text-align: center;
-  letter-spacing: 0.11em;
+  letter-spacing: 0.1em;
 }
 
 .other__item .item__img {
@@ -1073,7 +1083,7 @@ body {
   margin-bottom: 26px;
   font-size: 19px;
   color: #ffffff;
-  letter-spacing: 0.11em;
+  letter-spacing: 0.05em;
 }
 
 .other__item .item__text:last-child {
