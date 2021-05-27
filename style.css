@@ -45,7 +45,7 @@ body {
 }
 
 .logo {
-  margin: 19px 80px 30px 100px;
+  margin: 19px 80px 30px 45px;
   height: 90px;
   width: 90px;
 }
@@ -350,12 +350,12 @@ body {
   content: "-";
 }
 
-.contacts {
+.index-contacts {
   max-width: 1083px;
   margin: 0 auto;
 }
 
-.contacts__heading {
+.index-contacts__heading {
   margin-bottom: 16px;
   color: #ffffff;
   font-size: 36px;
@@ -850,129 +850,6 @@ body {
   font-size: 20px;
 }
 
-.floorwood-arte__heading {
-  margin: 29px 0 54px;
-  font-size: 36px;
-  line-height: 42px;
-  font-weight: 400;
-  color: #ffffff;
-  text-align: center;
-}
-
-.floorwood-arte__info {
-  max-width: 1192px;
-  margin: 0 auto 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.floorwood-arte__info .gallery {
-  width: 520px;
-  height: 321px;
-  margin-right: 32px;
-  position: relative;
-}
-
-.floorwood-arte__info .gallery__button {
-  width: 59px;
-  height: 51px;
-  position: absolute;
-  top: 134px;
-  border: none;
-  cursor: pointer;
-  background-color: rgba(196, 196, 196, 0.4);
-}
-
-.floorwood-arte__info .gallery__button__back {
-  left: 0;
-}
-
-.floorwood-arte__info .gallery__button__forward {
-  right: 0;
-}
-
-.floorwood-arte__info .nav {
-  margin-right: 41px;
-  list-style: none;
-}
-
-.floorwood-arte__info .nav__item__link {
-  font-family: 'Roboto', Arial, sans-serif;
-  font-size: 30px;
-  color: #ffffff;
-  line-height: 35px;
-  text-decoration: none;
-}
-
-.floorwood-arte__info .nav__item__link:hover {
-  text-decoration: underline;
-}
-
-.floorwood-arte__info .description {
-  max-width: 319px;
-  padding-left: 23px;
-  color: #ffffff;
-  border-left: 2px solid #ffffff;
-}
-
-.where-buy__info {
-  width: 727px;
-  margin: 0 auto;
-}
-
-.where-buy__heading {
-  font-size: 36px;
-  line-height: 42px;
-  font-weight: 400;
-  color: #ffffff;
-  margin: 32px 0 60px;
-  text-align: center;
-}
-
-.where-buy__map {
-  position: relative;
-  margin-bottom: 115px;
-}
-
-.where-buy__map__img {
-  display: block;
-  margin: 0 auto;
-  max-width: 1440px;
-  width: 100%;
-}
-
-.where-buy__map__gps {
-  width: 478px;
-  position: absolute;
-  bottom: 0;
-  left: calc(100% / 2 - 239px);
-  padding: 29px 46px;
-  background-color: #000927;
-  color: #ffffff;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.city-select {
-  width: 100%;
-  height: 60px;
-  margin-bottom: 56px;
-  padding-left: 10px;
-  font-size: 22px;
-  line-height: 32px;
-  color: #b1acc0;
-  border: 4px solid #000000;
-  border-radius: 5px;
-}
-
-.city-select__option {
-  color: #000000;
-  font-size: 20px;
-}
-
 .item__heading {
   margin: 29px 0 54px;
   font-size: 36px;
@@ -1228,5 +1105,82 @@ body {
 
 .other__item .item__text:last-child {
   margin-bottom: 11px;
+}
+
+.contacts {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.contacts section::after {
+  content: "";
+  display: block;
+  margin: 38px 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.contacts__heading {
+  margin: 51px 0 77px;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacts__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts__partners {
+  display: block;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 42px;
+  text-decoration: none;
+  text-align: right;
+  font-style: italic;
+}
+
+.contacts__partners::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+.contacts__cities {
+  max-width: 898px;
+  margin: 0 auto;
+}
+
+.contacts__cities .cities-list {
+  list-style: none;
+  margin-bottom: 60px;
+}
+
+.contacts__cities .cities-list__item {
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.contacts__cities .cities-list__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contacts__cities .cities-list__link__margin {
+  margin-left: 59px;
 }
 /*# sourceMappingURL=style.css.map */

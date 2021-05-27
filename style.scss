@@ -45,13 +45,12 @@ body {
 }
 
 .logo {
-	margin: 19px 80px 30px 100px;
+	margin: 19px 80px 30px 45px;
 	height: 90px;
 	width: 90px;
 }
 
 .nav {
-	
 	font-family: 'Roboto Condensed', Arial, sans-serif;
 
 	&__list {
@@ -341,7 +340,7 @@ body {
 
 //Главная - Контакты
 
-.contacts {
+.index-contacts {
 	max-width: 1083px;
 	margin: 0 auto;
 
@@ -873,154 +872,6 @@ body {
 
 // товар
 
-.floorwood-arte {
-	&__heading {
-		margin: 29px 0 54px;
-
-		font-size: 36px;
-		line-height: 42px;
-		font-weight: 400;
-		color: #ffffff;
-		text-align: center;
-	}
-
-	&__info {
-		max-width: 1192px;
-		margin: 0 auto 45px;
-		display: flex;
-
-		.gallery {
-			width: 520px;
-			height: 321px;
-			margin-right: 32px;
-			position: relative;
-
-			// border: 2px solid #ffffff;
-
-			&__button {
-				width: 59px;
-				height: 51px;
-				position: absolute;
-				top: 134px;
-
-				border: none;
-				cursor: pointer;
-				background-color: rgba(196, 196, 196, 0.4);
-
-				&__back {
-					left: 0;
-				}
-
-				&__forward {
-					right: 0;
-				}
-			}
-
-			&__img {
-				
-			}
-		}
-
-		.nav {
-			margin-right: 41px;
-			list-style: none;
-
-			&__item {
-
-				&__link {
-					font-family: 'Roboto', Arial, sans-serif;
-					font-size: 30px;
-					color: #ffffff;
-					line-height: 35px;
-					text-decoration: none;
-				}
-
-				&__link:hover {
-					text-decoration: underline;
-				}
-			}
-		}
-
-		.description {
-			max-width: 319px;
-			padding-left: 23px;
-
-			color: #ffffff;
-
-			border-left: 2px solid #ffffff;
-		}
-	}
-
-	&__products {
-
-	}
-}
-
-// где купить
-
-.where-buy {
-
-	&__info {
-		width: 727px;
-		margin: 0 auto;
-	}
-
-	&__heading {
-		font-size: 36px;
-		line-height: 42px;
-		font-weight: 400;
-		color: #ffffff;
-		margin: 32px 0 60px;
-		text-align: center;
-	}
-
-	&__map {
-		position: relative;
-		margin-bottom: 115px;
-
-		&__img {
-			display: block;
-			margin: 0 auto;
-			max-width: 1440px;
-			width: 100%;
-		}
-
-		&__gps {
-			width: 478px;
-			position: absolute;
-			bottom: 0;
-			left: calc(100% / 2 - 239px);
-			padding: 29px 46px;
-
-			background-color: #000927;
-			color: #ffffff;
-			font-size: 20px;
-			line-height: 28px;
-			text-align: center;
-			text-decoration: none;
-		}
-	}
-}
-
-.city-select {
-	width: 100%;
-	height: 60px;
-	margin-bottom: 56px;
-	padding-left: 10px;
-	font-size: 22px;
-	line-height: 32px;
-	color: #b1acc0;
-	border: 4px solid #000000;
-	border-radius: 5px;
-
-	&__option {
-		color: #000000;
-		font-size: 20px;
-	}
-}
-
-// товар
-
 .item {
 	&__heading {
 		margin: 29px 0 54px;
@@ -1113,10 +964,6 @@ body {
 
 	&__products {
 		margin-top: 89px;
-	}
-
-	&__other {
-
 	}
 }
 
@@ -1281,6 +1128,85 @@ body {
 
 			&__text:last-child {
 				margin-bottom: 11px;
+			}
+		}
+	}
+}
+
+// контакты
+
+.contacts {
+	max-width: 1190px;
+	margin: 0 auto;
+
+	section::after {
+		content: "";
+		display: block;
+		margin: 38px 0;
+		width: 100%;
+		height: 2px;
+		background-color: #ffffff;
+	}
+
+	&__heading {
+		margin: 51px 0 77px;
+
+		color: #ffffff;
+		font-size: 36px;
+		line-height: 42px;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__partners {
+		display: block;
+
+		color: #ffffff;
+		font-size: 28px;
+		line-height: 42px;
+		text-decoration: none;
+		text-align: right;
+		font-style: italic;
+	}
+
+	&__partners::before {
+		content: "";
+		width: 10px;
+		height: 10px;
+		background-color: #ffffff;
+		margin-bottom: 4px;
+		display: inline-block;
+
+	}
+
+	&__cities {
+		max-width: 898px;
+		margin: 0 auto;
+
+		.cities-list {
+			list-style: none;
+			margin-bottom: 60px;
+
+			&__item {
+				margin-bottom: 20px;
+
+				font-size: 28px;
+				line-height: 35px;
+				color: #ffffff;
+			}
+
+			&__link {
+				color: #ffffff;
+				text-decoration: none;
+
+				&__margin {
+					margin-left: 59px;
+				}
 			}
 		}
 	}
