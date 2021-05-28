@@ -337,7 +337,68 @@ body {
 		content: "-";
 	}
 }
+//Главная - Список каталогов
 
+.our-catalogs {
+	
+	&__heading{
+		margin-top: 60px;
+		margin-bottom: 50px;
+		color:#ffffff;
+		font-size: 36px;
+		font-weight: 400;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	&__list {
+		margin: auto;
+		max-width: 1000px;
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+	
+	}
+	&__item {
+		&__heading{
+			font-weight: 400;
+			max-width: 230px;
+			margin-left: 15px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			color:#ffffff;
+			font-size: 30px;
+			text-align: center;
+		}
+	
+	}
+
+	&__button {
+		font-size:20px;
+		outline: none;
+		background-color: #c5c2cc;
+		width: 100px;
+		margin: auto;
+		margin-bottom: 20px;
+		color: #222831;
+		
+	}
+
+
+	div {
+		background-color: #6e707c;
+		width: 256px;
+		height: 430px;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 80px;
+	}
+
+	&__img {
+		height: 262px;
+		width: 187px;
+		margin: auto;}
+}
 //Главная - Контакты
 
 .index-contacts {
@@ -649,7 +710,7 @@ body {
 	&__heading {
 		
 		margin: 30px;
-		margin-top: 200px;
+		margin-top: 150px;
 		color: #ffffff;
 		text-align: center;
 		font-weight: 400;
@@ -683,7 +744,7 @@ body {
 
 .products {
 
-	margin:  50px 200px 50px 200px;
+	margin:  50px 130px 50px 200px;
 
 	&__heading {
 		margin-top: 60px;
@@ -723,6 +784,7 @@ body {
 }
 
 .info {
+	margin-top: 30px;
 	margin-bottom: 80px;
 
 	&__topics {
@@ -845,7 +907,7 @@ body {
 
 			background-color: #000927;
 			color: #ffffff;
-			font-size: 24px;
+			font-size: 22px;
 			line-height: 28px;
 			text-align: center;
 			text-decoration: none;
@@ -855,10 +917,10 @@ body {
 
 .city-select {
 	width: 100%;
-	height: 71px;
+	height: 60px;
 	margin-bottom: 56px;
-
-	font-size: 28px;
+	padding-left: 15px;
+	font-size: 22px;
 	line-height: 32px;
 	color: #D7D2E5;
 	border: 4px solid #000000;
