@@ -1069,7 +1069,7 @@ body {
 .other {
 	&__heading {
 		color: #ffffff;
-		font-size: 36px;
+		font-size: 34px;
 		font-weight: 400;
 		text-align: center;
 		text-transform: uppercase;
@@ -1213,5 +1213,98 @@ body {
 		}
 	}
 
-	
+
+}
+
+// карточка товара
+
+.card {
+	&__heading {
+		margin-top: 51px;
+
+		font-size: 36px;
+		text-align: center;
+		font-weight: 400;
+		line-height: 42px;
+		color: #ffffff;
+	}
+
+	&__subheading {
+		margin-bottom: 51px;
+
+		font-size: 30px;
+		text-align: center;
+		font-weight: 400;
+		line-height: 35px;
+		color: #ffffff;
+	}
+
+	&__info {
+		max-width: 1164px;
+		margin: 0 auto;
+		display: flex;
+		margin-bottom: 50px;
+
+		.info {
+			&__bordered {
+				border: 2px solid #ffffff;
+				width: 331px;
+				margin-right: 62px;
+			}
+
+			&__img {
+				width: 331px;
+				transform: translate(10px, -20px);
+			}
+			
+			&__menu {
+				display: flex;
+
+				&__button {
+					border: none;
+					background: none;
+					color: #ffffff;
+					font-family: Roboto;
+					font-size: 30px;
+					line-height: 35px;
+					cursor: pointer;
+
+					&--active {
+						color: #7485BA;
+					}
+				}
+
+				&__divider {
+					width: 2px;
+					height: 35px;
+					margin-left: 15px;
+					margin-right: 15px;
+					background-color: #ffffff;
+				}
+			}
+
+			&__text {
+				font-size: 21px;
+				line-height: 25px;
+				color: #ffffff;
+
+				&__bold {
+					font-weight: 600;
+				}
+			}
+
+			&__button {
+				margin-top: 14px;
+				width: 194px;
+				height: 39px;
+				cursor: pointer;
+
+				font-family: Roboto;
+				font-size: 15px;
+
+			}
+
+		}
+		
+	}
 }
