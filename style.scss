@@ -969,15 +969,24 @@ body {
 
 .products {
 	list-style: none;
-	margin-left: 128px;
-	margin-bottom: 83px;
+	margin: 0 auto;
+	max-width: 1164px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
 	&__item {
 		width: 556px;
-		height: 501px;
+		height: 378px;
 		border: 2px solid #ffffff;
+		margin-bottom: 52px;
 		
 		a {text-decoration: none;}
+		a:hover {
+			text-decoration: underline;
+			color: #ffffff;
+		}
 
 		&__wrapper-desc {
 			margin: 20px 0 11px 16px;
@@ -997,6 +1006,9 @@ body {
 			width: 245px;
 
 			.info {
+				display: flex;
+				justify-content: space-between;
+
 				&__heading {
 					margin-bottom: 30px;
 
@@ -1007,59 +1019,37 @@ body {
 				}
 
 				&__text {
-					margin-bottom: 30px;
+					margin-bottom: 0px;
 
 					color: #ffffff;
-					font-size: 20px;
+					font-size: 18px;
 					line-height: 23px;
+
+					&__bold {
+						font-weight: 600;
+					}
 				}
 
-				&__colors {
-					display: flex;
-
-					list-style: none;
-
-					&__item {
-						width: 27px;
-						height: 23px;
-						margin-right: 16px;
-					}
-
-					&__green {
-						background-color: #91AB65;
-					}
-
-					&__blue {
-						background-color: #6596AB;
-					}
-
-					&__purple {
-						background-color: #8C65AB;
-					}
-
-					&__red {
-						background-color: #AB6565;
-					}
-
-					&__lilac {
-						background-color: #7365AB;
-					}
+				&__text:last-of-type {
+					margin-bottom: 30px;
 				}
 			}
 		}
 
 		&__link {
-			margin-left: 24px;
-			display: block;
-
-			font-size: 20px;
+			font-size: 18px;
 			line-height: 23px;
-			color: #ffffff;
+			color: #7485BA;
+
+			&-text {
+				font-size: 18px;
+				color: #ffffff;
+			}
 		}
 	}
 
 	&__wrapper-buttons {
-		margin: 68px 44px 38px 46px;
+		margin: 0 44px 22px 46px;
 		display: flex;
 		justify-content: space-between;
 
@@ -1101,13 +1091,20 @@ body {
 		border: 1px solid #ffffff;
 
 		.item {
+
 			&__heading {
 				margin-top: 19px;
+				margin-bottom: 0;
 				color: #ffffff;
 				font-weight: 400;
 				font-size: 21px;
 				text-align: center;
 				letter-spacing: 0.1em;
+				text-decoration: none;
+			}
+
+			&__link {
+				text-decoration: none;
 			}
 
 			&__img {
@@ -1159,6 +1156,8 @@ body {
 	}
 
 	&__wrapper {
+		max-width: 800px;
+		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
 	}
@@ -1167,7 +1166,7 @@ body {
 		display: block;
 
 		color: #ffffff;
-		font-size: 28px;
+		font-size: 25px;
 		line-height: 42px;
 		text-decoration: none;
 		text-align: right;
@@ -1185,7 +1184,6 @@ body {
 	}
 
 	&__cities {
-		max-width: 898px;
 		margin: 0 auto;
 
 		.cities-list {
@@ -1195,7 +1193,7 @@ body {
 			&__item {
 				margin-bottom: 20px;
 
-				font-size: 28px;
+				font-size: 25px;
 				line-height: 35px;
 				color: #ffffff;
 			}
@@ -1207,6 +1205,10 @@ body {
 				&__margin {
 					margin-left: 59px;
 				}
+			}
+
+			&__link:hover {
+				text-decoration: underline;
 			}
 		}
 	}
