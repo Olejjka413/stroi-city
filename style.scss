@@ -46,8 +46,15 @@ body {
 
 .logo {
 	margin: 19px 80px 30px 45px;
-	height: 90px;
-	width: 90px;
+	&__svg {
+		height: 90px;
+		width: 90px;
+	}
+
+}
+
+.hamburger {
+	display: none;
 }
 
 .nav {
@@ -1379,6 +1386,23 @@ body {
 	.header {
 		.logo {
 			margin: 6px 0 0 7px;
+			&__svg {
+				width: 53px;
+				height: 53px;
+			}
+		}
+
+		.hamburger {
+			width: 40px;
+			height: 40px;
+			margin-top: 11px;
+			margin-right: 9px;
+
+			background-color: rgba(196, 196, 196, 0.5);
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 
 		.nav,
@@ -1395,6 +1419,7 @@ body {
 	.catalogs {
 		margin: 0;
 		margin-left: 12px;
+		margin-right: 9px;
 		display: block;
 
 		&__heading {
@@ -1558,7 +1583,7 @@ body {
 			flex-direction: column;
 			align-items: center;
 			margin-bottom: 19px;
-			margin-right: 20px;
+			margin-right: 10px;
 
 			&__heading {
 				margin-top: 11px;
