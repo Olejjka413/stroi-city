@@ -284,7 +284,7 @@ body {
 
 .news__item {
   width: 306px;
-  margin-bottom: 109px;
+  margin-bottom: 60px;
 }
 
 .news__item p {
@@ -305,10 +305,6 @@ body {
 
 .news__item a:hover {
   color: #ffffff;
-}
-
-.news__item:nth-last-child(-n+3) {
-  margin-bottom: 65px;
 }
 
 .news__bordered {
@@ -370,30 +366,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.our-catalogs__item__heading {
-  font-weight: 400;
-  max-width: 230px;
-  margin-left: 15px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  color: #ffffff;
-  font-size: 30px;
-  text-align: center;
-}
-
-.our-catalogs__button {
-  font-size: 20px;
-  outline: none;
-  background-color: #c5c2cc;
-  width: 100px;
-  margin: auto;
-  margin-bottom: 20px;
-  color: #222831;
-}
-
-.our-catalogs div {
+.our-catalogs__item {
   background-color: #6e707c;
   width: 256px;
   height: 430px;
@@ -405,6 +382,38 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 80px;
+}
+
+.our-catalogs__item__heading {
+  font-weight: 400;
+  max-width: 230px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-catalogs__button {
+  font-size: 20px;
+  outline: none;
+  background-color: #c5c2cc;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #222831;
+  border: none;
 }
 
 .our-catalogs__img {
@@ -1348,6 +1357,9 @@ body {
 }
 
 @media (max-width: 1024px) {
+  body {
+    max-width: 950px;
+  }
   .header .logo {
     margin: 6px 0 0 7px;
   }
@@ -1453,10 +1465,15 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .news__item {
     margin-bottom: 24px;
     width: 196px;
+  }
+  .news__item__:nth-last-child(-n+3) {
+    margin-bottom: 24px;
   }
   .news__item p {
     margin-top: 5px;
@@ -1469,6 +1486,94 @@ body {
   .news__bordered img {
     width: 160px;
     height: 160px;
+  }
+  .news .pagination {
+    font-size: 15px;
+    width: 167px;
+  }
+  .news .pagination a {
+    font-size: 15px;
+  }
+  .our-catalogs__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .our-catalogs__heading {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 51px;
+    margin-bottom: 14px;
+  }
+  .our-catalogs__item {
+    width: 196px;
+    height: 328px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 19px;
+    margin-right: 20px;
+  }
+  .our-catalogs__item__heading {
+    margin-top: 11px;
+    margin-bottom: 25px;
+    margin-left: 0;
+    max-width: 143px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .our-catalogs__img {
+    width: 143px;
+    height: 200px;
+  }
+  .our-catalogs__button {
+    width: 68px;
+    height: 18px;
+    margin-top: 13px;
+    margin-bottom: 17px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .index-contacts__heading {
+    font-size: 18px;
+  }
+  .index-contacts .location {
+    font-size: 15px;
+    height: 30px;
+  }
+  .moscow {
+    padding: 0 11px;
+  }
+  .moscow__heading {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .moscow__flex {
+    display: block;
+  }
+  .moscow__address-phones, .moscow__emails, .moscow__rechnoi, .moscow__podolsk {
+    width: auto;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .moscow .margin-30 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .moscow__rechnoi, .moscow__podolsk {
+    margin-bottom: 30px;
+  }
+  .moscow__map {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
