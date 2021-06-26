@@ -1370,3 +1370,157 @@ body {
 		
 	}
 }
+
+@media (max-width: 1024px) {
+	.header {
+		.logo {
+			margin: 6px 0 0 7px;
+		}
+
+		.nav,
+		.phones {
+			display: none;
+		}
+	}
+
+	.slider,
+	.categories {
+		display: none;
+	}
+
+	.catalogs {
+		margin: 0;
+		margin-left: 12px;
+		display: block;
+
+		&__heading {
+			margin-top: 7px;
+			margin-bottom: 8px;
+			font-size: 18px;
+		}
+
+		&__wrapper {
+			margin: 0;
+			width: auto;
+			display: block;
+		}
+
+		.figure__stroi {
+			background: none;
+			width: auto;
+			height: auto;
+
+			&__heading {
+				display: inline-block;
+				margin-left: 0;
+
+				font-size: 16px;
+				line-height: 19px;
+			}
+
+			&__number {
+				display: inline-block;
+				font-size: 20px;
+				line-height: 31px;
+				margin: 0;
+			}
+
+			&__text { 
+				display: inline-block;
+				font-size: 20px;
+				line-height: 31px;
+				margin: 0;
+			}
+		}
+
+		&__p {
+			font-size: 15px;
+			line-height: 18px;
+		}
+
+		.stroi__text {
+			&-wrapper {
+				margin: 0;
+			}
+		}
+
+		.balterio {
+			&__text {
+				margin-left: 0;
+			}
+
+			&__wrapper {
+							display: flex;
+			flex-direction: column-reverse;
+			align-items: flex-start;
+			}
+		}
+
+		.figure__balterio {
+			background: none;
+			width: auto;
+			height: auto;
+			margin: 0;
+
+			&__heading {
+				display: inline-block;
+				margin-left: 0;
+
+				font-size: 16px;
+				line-height: 19px;
+			}
+
+			&__number {
+				display: inline-block;
+				font-size: 20px;
+				line-height: 31px;
+				margin: 0;
+			}
+
+			&__text { 
+				display: inline-block;
+				font-size: 20px;
+				line-height: 31px;
+				margin: 0;
+			}
+		}
+	}
+
+	.news {
+		&__heading {
+			margin-top: 25px;
+			margin-bottom: 23px;
+
+			font-size: 18px;
+			line-height: 21px;
+		}
+
+		&__list {
+			justify-content: center;
+		}
+
+		&__item {
+			margin-bottom: 24px;
+			width: 196px;
+
+			p {
+				margin-top: 5px;
+				margin-bottom: 0;
+			}
+		}
+
+		&__bordered {
+			width: 160px;
+			height: 160px;
+
+			img {
+				width: 160px;
+				height: 160px;
+			}
+		}
+	}
+
+	.our-catalogs {
+		
+	}
+}
