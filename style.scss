@@ -53,7 +53,7 @@ body {
 
 }
 
-.hamburger {
+.burger {
 	display: none;
 }
 
@@ -1378,12 +1378,23 @@ body {
 	}
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 	body {
 		max-width: 950px;
 	}
 
+	.fixed-pade {
+		overflow: hidden;
+	}
+
 	.header {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 20;
+		background-color: #000927;
+
 		.logo {
 			margin: 6px 0 0 7px;
 			&__svg {
@@ -1392,7 +1403,7 @@ body {
 			}
 		}
 
-		.hamburger {
+		.burger {
 			width: 40px;
 			height: 40px;
 			margin-top: 11px;
@@ -1405,7 +1416,42 @@ body {
 			align-items: center;
 		}
 
-		.nav,
+		.nav {
+			display: block;
+			position: absolute;
+			top: 63px;
+			background-color: #000927;
+			width: 100%;
+			left: -100%;
+			transition: all 0.5s ease;
+
+			&__list {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin-top: 74px;
+				margin-bottom: 1024px;
+
+				&__item {
+					margin-bottom: 25px;
+					margin-right: 0;
+
+					a {
+						font-family: 'Roboto Condensed', Arial, sans-serif;
+						font-size: 14px;
+						line-height: 16px;
+						letter-spacing: 0.12em;
+						text-transform: uppercase;
+					}
+				}
+			}
+
+			&.open-menu {
+				left: 0;
+			}
+
+		}
+
 		.phones {
 			display: none;
 		}
@@ -1418,6 +1464,7 @@ body {
 
 	.catalogs {
 		margin: 0;
+		margin-top: 67px;
 		margin-left: 12px;
 		margin-right: 9px;
 		display: block;
