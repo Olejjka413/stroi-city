@@ -6,9 +6,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Строй-city</title>
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Saira&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	
@@ -57,7 +59,22 @@
 				</div>
 			</section>
 			<section class="slider">
-				<img src="img/slider-1.jpg" alt="">
+				<div id="carousel-1" class="owl-carousel">
+
+					<div class="carousel-item">
+						<img src="img/slider-1.jpg" alt="">
+					</div>
+					<div class="carousel-item">
+						<img src="img/slider-2.jpg" alt="">
+					</div>
+					<div class="carousel-item">
+						<img src="img/slider-1.jpg" alt="">
+					</div>
+					<div class="carousel-item">
+						<img src="img/slider-2.jpg" alt="">
+					</div>
+				  
+				  </div>
 			</section>
 			<section class="categories">
 				<ul class="categories__list">
@@ -308,6 +325,7 @@
 	</main>
 	<p class= "water">Фабрика IT-решений. Московский политех, 2021</p>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
 	<script src="script.js"></script>
 </body>
 </html>

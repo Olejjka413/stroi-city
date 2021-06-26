@@ -99,6 +99,24 @@ body {
   margin-bottom: 46px;
 }
 
+.owl-dots {
+  text-align: center;
+  margin-top: 17px;
+}
+
+#carousel-1 button.owl-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: none;
+  border: 2px solid #F6F3FF;
+  margin: 0 6px;
+}
+
+#carousel-1 button.owl-dot.active {
+  background: #F6F3FF;
+}
+
 .categories {
   height: 72px;
   display: -webkit-box;
