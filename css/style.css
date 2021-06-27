@@ -1724,5 +1724,30 @@ body {
     font-size: 11px;
     line-height: 13px;
   }
+  .contacts__heading {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 64px;
+    margin-bottom: 31px;
+  }
+  .contacts__wrapper {
+    max-width: 307px;
+  }
+  .contacts .cities-list {
+    margin-bottom: 30px;
+  }
+  .contacts .cities-list__item {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .contacts__partners {
+    font-size: 13px;
+    line-height: 15px;
+    margin-right: 19px;
+  }
+  .contacts__partners::before {
+    width: 5px;
+    height: 5px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

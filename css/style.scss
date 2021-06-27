@@ -1764,7 +1764,7 @@ body {
 
 	.about-map {
 		margin-top: 53px;
-		
+
 		&__input {
 			width: 214px;
 			height: 37px;
@@ -1797,6 +1797,40 @@ body {
 		&__text {
 			font-size: 11px;
 			line-height: 13px;
+		}
+	}
+
+	.contacts {
+		&__heading {
+			font-size: 18px;
+			line-height: 21px;
+
+			margin-top: 64px;
+			margin-bottom: 31px;
+		}
+
+		&__wrapper {
+			max-width: 307px;
+		}
+
+		.cities-list {
+			margin-bottom: 30px;
+
+			&__item {
+				font-size: 15px;
+				line-height: 17px;
+			}
+		}
+
+		&__partners {
+			font-size: 13px;
+			line-height: 15px;
+			margin-right: 19px;
+
+			&::before {
+				width: 5px;
+				height: 5px;
+			}
 		}
 	}
 }
