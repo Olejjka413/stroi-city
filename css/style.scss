@@ -678,7 +678,7 @@ body {
 		height: 70px;
 		margin: 0 auto;
 		margin-top: 20px;
-		margin-bottom: 102px;
+		margin-bottom: 34px;
 
 		display: block;
 
@@ -1450,18 +1450,18 @@ body {
 				margin-top: 74px;
 				margin-bottom: 1024px;
 
-				&__item {
-					margin-bottom: 25px;
-					margin-right: 0;
+			&__item {
+				margin-bottom: 25px;
+				margin-right: 0;
 
-					a {
-						font-family: 'Roboto Condensed', Arial, sans-serif;
-						font-size: 14px;
-						line-height: 16px;
-						letter-spacing: 0.12em;
-						text-transform: uppercase;
-					}
+				a {
+					font-family: 'Roboto Condensed', Arial, sans-serif;
+					font-size: 14px;
+					line-height: 16px;
+					letter-spacing: 0.12em;
+					text-transform: uppercase;
 				}
+			}
 			}
 
 			&.open-menu {
@@ -1724,6 +1724,79 @@ body {
 
 		&__map {
 			display: none;
+		}
+	}
+
+	.about {
+		&__heading {
+			font-size: 18px;
+			line-height: 21px;
+			margin-top: 64px;
+			margin-bottom: 21px;
+		}
+
+		&__img {
+			max-width: 300px;
+			img {
+				width: 300px;
+			}
+		}
+
+		&__button-download {
+			display: none;
+		}
+
+		&__text {
+			font-size: 15px;
+			line-height: 18px;
+			text-align: justify;
+
+			margin-left: 36px;
+			margin-right: 33px;
+			margin-bottom: 18px;
+		}
+
+		&__button-more {
+			font-size: 13px;
+			line-height: 15px;
+		}
+	}
+
+	.about-map {
+		margin-top: 53px;
+		
+		&__input {
+			width: 214px;
+			height: 37px;
+			padding: 16px 0 9px 9px;
+
+			font-size: 13px;
+			line-height: 15px;
+		}
+
+		&__button {
+			width: 156px;
+			height: 33px;
+
+			font-size: 14px;
+			line-height: 16px;
+		}
+
+		&__img {
+			width: 360px;
+			margin-bottom: 25px;
+		}
+	}
+
+	.footer-secondary {
+		&__line {
+			width: 200px;
+		}
+
+		&__map,
+		&__text {
+			font-size: 11px;
+			line-height: 13px;
 		}
 	}
 }
