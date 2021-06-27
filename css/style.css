@@ -682,7 +682,7 @@ body {
   height: 70px;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 102px;
+  margin-bottom: 34px;
   display: block;
   background: #F6F3FF;
   border-radius: 5px;
@@ -1669,6 +1669,85 @@ body {
   }
   .moscow__map {
     display: none;
+  }
+  .about__heading {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 64px;
+    margin-bottom: 21px;
+  }
+  .about__img {
+    max-width: 300px;
+  }
+  .about__img img {
+    width: 300px;
+  }
+  .about__button-download {
+    display: none;
+  }
+  .about__text {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    margin-left: 36px;
+    margin-right: 33px;
+    margin-bottom: 18px;
+  }
+  .about__button-more {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .about-map {
+    margin-top: 53px;
+  }
+  .about-map__input {
+    width: 214px;
+    height: 37px;
+    padding: 16px 0 9px 9px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .about-map__button {
+    width: 156px;
+    height: 33px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .about-map__img {
+    width: 360px;
+    margin-bottom: 25px;
+  }
+  .footer-secondary__line {
+    width: 200px;
+  }
+  .footer-secondary__map, .footer-secondary__text {
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .contacts__heading {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 64px;
+    margin-bottom: 31px;
+  }
+  .contacts__wrapper {
+    max-width: 307px;
+  }
+  .contacts .cities-list {
+    margin-bottom: 30px;
+  }
+  .contacts .cities-list__item {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .contacts__partners {
+    font-size: 13px;
+    line-height: 15px;
+    margin-right: 19px;
+  }
+  .contacts__partners::before {
+    width: 5px;
+    height: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */
