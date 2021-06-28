@@ -3,11 +3,11 @@
     header('Content-Type: text/html; charset=utf-8');
 
     /* имя хоста */
-    $server = "localhost"; 
+    $server = "std-mysql.ist.mospolytech.ru:3306"; 
     /* Имя пользователя БД */
-    $username = "root"; 
+    $username = "std_1365_stroi_city"; 
     /* Пароль пользователя */
-    $password = ""; 
+    $password = "stroi-city"; 
     /* Имя базы данных */
     $database = "stroi_city"; 
      
