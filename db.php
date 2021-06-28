@@ -3,13 +3,13 @@
     header('Content-Type: text/html; charset=utf-8');
 
     /* имя хоста */
-    $server = "std-mysql.ist.mospolytech.ru:3306"; 
+    $server = "std-mysql"; 
     /* Имя пользователя БД */
     $username = "std_1365_stroi_city"; 
     /* Пароль пользователя */
     $password = "stroi-city"; 
     /* Имя базы данных */
-    $database = "stroi_city"; 
+    $database = "std_1365_stroi_city"; 
      
     /* Подключение к базе данный через MySQLi */
     $mysqli = new mysqli($server, $username, $password, $database);
